@@ -1,20 +1,20 @@
 import { useState } from "react";
-import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronRight } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [menuItems] = useState([
     {
-      name: "Home",
-      href: "/home",
-    },
-    {
-      name: "About",
-      href: "/about",
+      name: "Tutors",
+      href: "/tutors",
     },
     {
       name: "Contact",
       href: "/contact",
+    },
+    {
+      name: "About",
+      href: "/about",
     },
   ]);
 
@@ -52,9 +52,6 @@ const Navbar = () => {
                       className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-gray-900"
                     >
                       {item.name}
-                      <span>
-                        <ChevronDown className="ml-2 h-4 w-4" />
-                      </span>
                     </a>
                   </li>
                 ))}
@@ -153,7 +150,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-     
     </div>
   );
 };

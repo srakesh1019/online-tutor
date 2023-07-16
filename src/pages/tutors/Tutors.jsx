@@ -1,11 +1,20 @@
-import AboutTutor from "../../components/abouttutor/AboutTutor"
+import AboutTutor from "../../components/abouttutor/AboutTutor";
+import SearchTutor from "../../components/searchtutor/SearchTutor";
 
 const Tutors = () => {
   return (
     <div>
-    <AboutTutor/>
-    </div>
-  )
-}
+      <SearchTutor />
+      <AboutTutor />
+      <AboutTutor />
+      <AboutTutor />
+      <AboutTutor />
+      <AboutTutor />
+      <AboutTutor />
+      <AboutTutor />
 
-export default Tutors
+    </div>
+  );
+};
+
+export default Tutors;
