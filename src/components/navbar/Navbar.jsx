@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from "react-router-dom"
 import { Menu, X, ChevronRight } from "lucide-react";
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
     },
     {
       name: "Book Demo",
-      href: "/demo",
+      href: "/book-demo",
     },
     {
       name: "About",
@@ -41,18 +42,19 @@ const Navbar = () => {
                   />
                 </svg>
               </span>
+            <Link to="/">
               <span className="font-bold">Online Tutors</span>
+              </Link>
             </div>
             <div className="hidden lg:block">
               <ul className="ml-12 inline-flex space-x-8">
                 {menuItems.map((item) => (
                   <li key={item.name}>
-                    <a
-                      href={item.href}
-                      className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-gray-900"
-                    >
-                      {item.name}
-                    </a>
+                    <Link 
+                    className="inline-flex items-center text-sm font-semibold text-gray-800 hover:text-gray-900"
+                    to={item.href}>
+                    {item.name}
+                    </Link>
                   </li>
                 ))}
               </ul>

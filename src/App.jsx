@@ -7,6 +7,7 @@ import "./App.css";
 import Error from "./components/error/Error";
 import Register from "./pages/register/Register";
 import Tutors from "./pages/tutors/Tutors";
+import BookDemo from "./pages/bookdemo/BookDemo";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/tutors" element={<Tutors/>}/>
+        <Route path="/book-demo" element={<BookDemo/>}/>
         <Route path="/login" element={<Login />} /> 
         <Route path="/register" element={<Register/>} />        
         <Route path="*" element={<Error/>} />
