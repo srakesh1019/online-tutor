@@ -26,7 +26,7 @@ const HeroOne = () => {
                 type="button"
                 className="rounded-md border border-black px-8 py-3 text-md font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
-                Book a Demo
+                Book Demo
               </button>
               </Link>
             <br />

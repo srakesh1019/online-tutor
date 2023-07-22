@@ -5,14 +5,7 @@ const Tutors = () => {
   return (
     <div>
       <SearchTutor />
-      <AboutTutor />
-      <AboutTutor />
-      <AboutTutor />
-      <AboutTutor />
-      <AboutTutor />
-      <AboutTutor />
-      <AboutTutor />
-
+      <AboutTutor/>
     </div>
   );
 };

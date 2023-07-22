@@ -11,7 +11,7 @@ const BookDemo = () => {
         />
         <div className="flex items-center justify-center">
           <div className="px-2 md:px-12">
-            <p className="text-2xl font-bold text-gray-900 md:text-4xl">Book a Demo</p>
+            <p className="text-2xl font-bold text-gray-900 md:text-4xl">Book Demo</p>
             <p className="mt-4 text-lg text-gray-600">
              We will assist in finding a right tutor who meets your specific requirements.
             </p>
@@ -106,7 +106,7 @@ const BookDemo = () => {
                 type="button"
                 className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
-               Book a Demo
+               Book Demo
               </button>
             </form>
           </div>

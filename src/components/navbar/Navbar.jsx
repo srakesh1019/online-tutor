@@ -9,8 +9,8 @@ const Navbar = () => {
       href: "/tutors",
     },
     {
-      name: "Contact",
-      href: "/contact",
+      name: "Book Demo",
+      href: "/demo",
     },
     {
       name: "About",
